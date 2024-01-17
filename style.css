@@ -35,6 +35,13 @@ body {
     gap: 16px;
 }
 
+.logo img , .footer_logo img, .review img{
+    width: 5rem;
+}
+
+.logotext{
+    margin-top: 15px;
+}
 
 .navbar a {
     color: var(--Dark-02, #424247);
@@ -48,7 +55,7 @@ body {
 }
 
 .navbar a.a_color {
-    color: #FF5400
+    color: #31c292;
 }
 
 
@@ -105,7 +112,7 @@ body {
 }
 
 .banner_btn {
-    background: #FF5400;
+    background: #31c292;
     color: #FFF;
     text-align: center;
     font-family: Mulish;
@@ -340,10 +347,10 @@ body {
 }
 
 .block6,
-.block6b {
+.block6b,.block6c {
     width: 90%;
     margin: 2% 5%;
-    background-image: url(images/Group\ 39.png);
+    background-image: url(images/image_59.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -357,8 +364,12 @@ body {
 }
 
 .block6b {
-    background-image: url(images/Group\ 40.png);
+    background-image: url(images/image_60.png);
     flex-direction: row;
+}
+
+.block6c {
+    background-image: url(images/image_61.png);
 }
 
 .block6_sub {
@@ -389,7 +400,7 @@ body {
 
 
 .accent {
-    color: #FF5400;
+    color: #31c292;
 }
 
 .block6__head {
@@ -413,7 +424,7 @@ body {
 }
 
 .block6_price {
-    color: #FF5400;
+    color: #31c292;
     font-family: Mulish;
     font-size: 1.8rem;
     font-style: normal;
@@ -468,7 +479,7 @@ body {
 .block9_texts {
     width: 30%;
     margin: 5%;
-    border: 1px solid #FF5400;
+    border: 1px solid #31c292;
     border-radius: 16px;
     padding: 7vh;
 }
@@ -523,7 +534,7 @@ body {
 
 .block9_disc_sub {
     width: 35%;
-    background: #FF5400;
+    background: #31c292;
     color: #FFF;
     text-align: center;
     padding: 1rem;
@@ -542,7 +553,7 @@ body {
     border: none;
     background-color: white;
     color: rgba(19, 19, 24, 0.50);
-    background: #FF5400;
+    background: #31c292;
     color: #FFF;
     text-align: center;
     font-family: Mulish;
@@ -552,6 +563,29 @@ body {
     line-height: normal;
     width: 100%;
     margin: 2rem auto;
+}
+
+
+.review-container {
+    width: 90%;
+    margin: 2% 5%;
+    display: flex;
+    gap: 24px;
+}
+
+.review {
+
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.review-info {
+    color: var(--text3);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
 
 footer {
@@ -817,6 +851,10 @@ footer hr{
 
     .block9_disc_b {
         font-size: 1rem;
+    }
+
+    .review-container{
+        flex-wrap: wrap;
     }
 
 }
