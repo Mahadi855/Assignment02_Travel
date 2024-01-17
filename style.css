@@ -778,7 +778,7 @@ footer hr{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        gap: 0.5rem;
+        gap: 1rem;
         margin: 0;
 
 
@@ -787,7 +787,6 @@ footer hr{
     .block6_nav {
         font-size: 1rem;
         margin-bottom: 0;
-        margin-right: 4rem;
 
     }
 
